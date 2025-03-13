@@ -1,0 +1,8 @@
+# requirements.txt
+langchain
+gradio
+ollama
+unstructured[pdf]
+faiss-cpu
+sentence-transformers
+python-magic-bin
