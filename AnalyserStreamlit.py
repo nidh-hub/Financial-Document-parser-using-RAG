@@ -1,7 +1,7 @@
 from langchain_community.llms import Ollama 
 from langchain_core.runnables import RunnablePassthrough 
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS # type: ignore
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
